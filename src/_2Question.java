@@ -15,12 +15,14 @@
  * 7 * 8 = 56
  * 7 * 9 = 63
  * 7 * 10 = 70
+ * @author Udayan Khattry
  */
 public class _2Question {
     public static void main(String[] args) {
         int tableOf = 7;
         int [] arr = {1,2,3,4,5,6,7,8,9,10};
 
+        // for-each loop to print table of 7 
         for(int x : arr) {
             System.out.println(tableOf + " * " + x + " = " + (tableOf * x));
         }
